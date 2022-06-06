@@ -33,16 +33,23 @@ button {
 
     color: white;
 
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 13px;
 
     width: 200px;
 
     margin-bottom: 5px;
     margin-right: 10px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    color:black;
 }
 
 button:active {
-    transition: 0.5s;
+    transition: 0.3s;
     /*transform: translateY(6px);*/
     transform: translateY(6px);
 }

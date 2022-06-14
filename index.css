@@ -45,7 +45,8 @@ button {
 }
 
 button:hover {
-    color: black;
+    transition: 0.5s;
+    box-shadow: 0 0 22px black;
 }
 
 button:active {
@@ -60,4 +61,8 @@ button:active {
 
 #save-btn {
     background: darkgreen;
+}
+
+#reset-btn {
+    background: black;
 }
